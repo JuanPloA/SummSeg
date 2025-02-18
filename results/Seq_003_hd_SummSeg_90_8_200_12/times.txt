@@ -1,0 +1,6 @@
+Extract features: 0.0000 segundos
+Inference: 0.0000 segundos
+Summary generation: 0.0028 segundos
+Summary reduction: 0.0182 segundos
+Total: 0.0210 segundos
+

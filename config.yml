@@ -1,0 +1,56 @@
+nombre: Seq_003 # Con nombre sacamos el directorio de: Segmentacion binaria, Segmentacion clases y el GT
+directorio_frames: ../../videos/Seq_003_hd
+
+gpu: true
+method: SummSeg # [SummSeg, SummSegInv, Ubiss-Uniform]
+
+
+#Extract features if we do not alredy have the features saved
+extract_features: false
+
+#Perform inference if we do not alredy have the scores saved
+inference: false
+
+
+#Ubiss initial summary
+batches: 8
+percentile: 90
+
+#SummSeg
+N: 200              # Sumarry length cap
+discard_size: 12    # Reduce <discard_size> adjacent frames to 1 middle frame
+max_compress: false # If true, does not fullfill the summary until reaching <N>
+
+
+#SummSegInv
+correct: 24 # Segmentacion binaria smootheada con valor <correct>
+
+
+#Evaluacion y visualizacion de mosaico y barras
+evaluation: true
+visualization: true
+
+mosaico: true
+mosaico_bin: true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#No se usan
+#guided: false

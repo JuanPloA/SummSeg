@@ -1,0 +1,32 @@
+Se cumplen 82 de los 152 intervalos.
+Tool ratio:3.072272765726601
+Good ratio:4.5755293823703935
+Poor ratio:4.7735690514461115
+Cleaning ratio:6.4007559592667596
+Wall ratio:4.446392522304217
+
+Tool count:15
+Good count:39
+Poor count:69
+Cleaning count:50
+Wall count:27
+
+Tool interval count:7
+Tool total interval:15
+
+
+Good interval count:17
+Good total interval:25
+
+
+Poor interval count:27
+Poor total interval:47
+
+
+Cleaning interval count:21
+Cleaning total interval:40
+
+
+Wall interval count:10
+Wall total interval:24
+
